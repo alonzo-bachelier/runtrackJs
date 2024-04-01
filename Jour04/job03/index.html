@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body style="display: flex; justify-content: center">
+        <section
+            id="preferences"
+            style="
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                height: 200px;
+            "
+        >
+            <label for="id">id :</label>
+            <input type="text" id="id" />
+            <label for="Name">Name :</label>
+            <input type="text" id="name" />
+            <select id="type">
+                <option value="All">All</option>
+            </select>
+            <button id="filter">filter</button>
+        </section>
+        <section
+            id="results-filter"
+            style="text-align: center; margin-top: 300px; position: absolute"
+        ></section>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="script.js"></script>
+    </body>
+</html>

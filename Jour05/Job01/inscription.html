@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="inscription.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Jour 5</h1>
+            <ul class="lien-header-ul">
+                <li>
+                    <a href="inscription.html" class="lien-header"
+                        >inscription</a
+                    >
+                </li>
+                <li>
+                    <a href="connexion.html" class="lien-header">connexion</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section class="section-principal">
+                <section class="section-infos">
+                    <div class="label-input">
+                        <label for="prenom">Prenom:</label>
+                        <input
+                            type="text"
+                            id="prenom"
+                            placeholder="Ex : Alonzo"
+                        />
+                        <p id="prenom-verif" class="p-erreur"></p>
+                    </div>
+                    <div class="label-input">
+                        <label for="nom">Nom:</label>
+                        <input
+                            type="text"
+                            id="nom"
+                            placeholder="Ex : Bachelier"
+                        />
+                        <p id="nom-verif" class="p-erreur"></p>
+                    </div>
+                </section>
+                <section class="section-infos">
+                    <div class="label-input">
+                        <label for="adresse">Adresse:</label>
+                        <input
+                            type="text"
+                            id="adresse"
+                            placeholder="Ex : Place du 8 mai 1945"
+                        />
+                        <p id="adresse-verif" class="p-erreur"></p>
+                    </div>
+
+                    <div class="label-input">
+                        <label for="code">Code postal:</label>
+                        <input type="text" id="code" placeholder="Ex : 13500" />
+                        <p id="code-verif" class="p-erreur"></p>
+                    </div>
+                </section>
+                <section>
+                    <section class="section-infos">
+                        <div class="label-input">
+                            <label for="mail" class="mail-label">Mail:</label>
+                            <input
+                                type="text"
+                                id="mail"
+                                placeholder="Ex : laplateforme@mail.com"
+                            />
+                            <p id="mail-verif" class="p-erreur"></p>
+                        </div>
+                    </section>
+                    <section class="section-infos">
+                        <div class="label-input">
+                            <label for="mot-de-passe">Mot de passe:</label>
+                            <input type="password" id="mot-de-passe" />
+                            <p id="mdp-verif" class="p-erreur"></p>
+                        </div>
+                        <div class="label-input">
+                            <label for="mdp-verif"
+                                >Confirmer votre mot de passe:</label
+                            >
+                            <input type="password" id="mdp-verif" />
+                            <p id="mdp2-verif" class="p-erreur"></p>
+                        </div>
+                    </section>
+                </section>
+                <div class="btn-div">
+                    <button id="inscription">S'inscrire</button>
+                </div>
+            </section>
+            <p id="message-erreur"></p>
+        </main>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="inscription.js"></script>
+    </body>
+</html>

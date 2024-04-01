@@ -1,0 +1,15 @@
+body {
+    min-width: 4096px;
+    min-height: 8000px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: red;
+}
+h2 {
+    text-align: center;
+}

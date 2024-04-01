@@ -11,11 +11,11 @@
 //         print("Buzz")
 //     else:
 //         print(number)
-//    EXEMPLE PYTHON
+//    EXEMPLE PYTHON ///////////////
 
 function fizzbuzz() {
-    for (var number = 1; number <= 151; number++) {
-        var message = "";
+    for (let number = 1; number <= 151; number++) {
+        let message = "";
         if (number % 3 === 0) {
             message += "Fizz";
         }

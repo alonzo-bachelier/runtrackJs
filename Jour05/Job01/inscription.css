@@ -1,0 +1,71 @@
+.section-principal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 500px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.164);
+}
+section {
+    padding: 5px;
+}
+.section-infos {
+    display: flex;
+    justify-content: space-evenly;
+}
+label {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.mail-label {
+    text-align: center;
+    width: 100%;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 15px;
+}
+#mail {
+    width: 500px;
+    height: 15px;
+}
+#mot-de-passe {
+    margin-top: 15px;
+    padding-right: 40px;
+}
+#mdp-verif {
+    padding-right: 40px;
+}
+#inscription {
+    background-color: #198750;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    border: none;
+}
+#inscription:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.164);
+    height: 20px;
+    width: 80px;
+}
+.btn-div {
+    text-align: center;
+    margin-top: 25px;
+}
+.label-input {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#message-erreur {
+    position: absolute;
+    top: 80px;
+    color: red;
+}
+#securite-mdp {
+    color: red;
+}
+.p-erreur {
+    color: red;
+}
