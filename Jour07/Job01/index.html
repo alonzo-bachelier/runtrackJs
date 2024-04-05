@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Compiled and minified CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <nav class="#4a148c purple darken-4">
+                <div class="nav-wrapper">
+                    <a
+                        href="#"
+                        data-target="mobile-demo"
+                        class="sidenav-trigger"
+                        ><i class="medium material-icons prefixe">menu</i></a
+                    >
+                    <a href="#" class="brand-logo">ALONZO</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html">inscription</a></li>
+                        <li><a href="index.html">Connexion</a></li>
+                        <li><a href="index.html">Rechercher</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </header>
+        <main style="margin: 20px">
+            <section class="container">
+                <form action="#" class="row">
+                    <p class="col s6 right-align">
+                        <label>
+                            <input name="group1" type="radio" checked />
+                            <span>Mr.</span>
+                        </label>
+                    </p>
+                    <p class="col s6">
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Mme.</span>
+                        </label>
+                    </p>
+                </form>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s4">
+                                <i class="small material-icons prefix"
+                                    >account_circle</i
+                                >
+                                <input
+                                    id="prenom"
+                                    type="text"
+                                    class="validate"
+                                />
+                                <label for="prenom">Prenom</label>
+                            </div>
+                            <div class="input-field col s4">
+                                <i class="small material-icons prefix"
+                                    >assignment_ind</i
+                                >
+                                <input id="nom" type="text" class="validate" />
+                                <label for="nom">Nom</label>
+                            </div>
+                            <div class="input-field col s4">
+                                <i class="small material-icons prefix">home</i>
+                                <input
+                                    id="adresse"
+                                    type="text"
+                                    class="validate"
+                                />
+                                <label for="adresse">Adresse</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="input-field col s4">
+                        <i class="small material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate" />
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <i class="small material-icons prefix">password</i>
+                        <input id="password" type="password" class="validate" />
+                        <label for="password">Mot de passe</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <i id="icon" class="small material-icons prefix"
+                            >lock_outline</i
+                        >
+                        <input
+                            id="password-verif"
+                            type="password"
+                            class="validate"
+                        />
+                        <label for="password-verif"
+                            >Confirmer le mot de passe</label
+                        >
+                    </div>
+                </div>
+                <h5 class="center-align">↓Passions↓</h5>
+                <form action="#" class="row">
+                    <p class="center-align">
+                        <label class="col s3">
+                            <input type="checkbox" />
+                            <span>Informatique</span>
+                        </label>
+                        <label class="col s3">
+                            <input type="checkbox" />
+                            <span>Voyage</span>
+                        </label>
+                        <label class="col s3">
+                            <input type="checkbox" />
+                            <span>Sport</span>
+                        </label>
+                        <label class="col s3">
+                            <input type="checkbox" />
+                            <span>Lecture</span>
+                        </label>
+                    </p>
+                </form>
+                <div class="center-align">
+                    <button
+                        class="btn waves-effect waves-light p-5"
+                        type="submit"
+                        name="action"
+                    >
+                        Valider
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="page-footer #4a148c purple darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Ullam illum id, iure vel quos explicabo
+                            placeat consectetur saepe natus nostrum beatae?
+                            Necessitatibus minus aliquid quia?
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Liens</h5>
+                        <ul>
+                            <li>
+                                <a
+                                    class="grey-text text-lighten-3"
+                                    href="index.html"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="grey-text text-lighten-3"
+                                    href="index.html"
+                                    >Inscription</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="grey-text text-lighten-3"
+                                    href="index.html"
+                                    >Connexion</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="grey-text text-lighten-3"
+                                    href="index.html"
+                                    >Rechercher</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2014 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!"
+                        >More Links</a
+                    >
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"
+        ></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
