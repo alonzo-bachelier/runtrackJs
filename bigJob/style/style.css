@@ -4,6 +4,21 @@
 label {
     margin-top: 15px;
 }
+#nom-p {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    display: none;
+}
+#prenom-p {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    display: none;
+}
+#mail-p {
+    color: rgba(68, 68, 68, 0.252);
+    position: absolute;
+    display: none;
+}
 #bouton-confirmer {
     margin-top: 15px;
     text-align: right;
