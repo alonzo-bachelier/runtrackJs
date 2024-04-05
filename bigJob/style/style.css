@@ -1,0 +1,10 @@
+.form {
+    margin-top: 20px;
+}
+label {
+    margin-top: 15px;
+}
+#bouton-confirmer {
+    margin-top: 15px;
+    text-align: right;
+}
