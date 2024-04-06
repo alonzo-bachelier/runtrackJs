@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style/style.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style/style.css" />
         <title>LaPlateform_</title>
     </head>
     <body>
@@ -80,86 +80,32 @@
             </nav>
         </header>
         <main>
-            <section class="container form">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-xs-12">
-                        <label for="prenom" class="form-label">Prenom</label>
-                        <input
-                            id="prenom"
-                            type="text"
-                            class="form-control"
-                            placeholder="Alonzo"
-                        />
-                        <p id="prenom-p">Format incorrect</p>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-xs-12">
-                        <label for="nom" class="form-label">Nom</label>
-                        <input
-                            id="nom"
-                            type="text"
-                            class="form-control"
-                            placeholder="Bachelier"
-                        />
-                        <p id="nom-p">Format incorrect</p>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <label for="mail" class="form-label">Mail</label>
+            <section class="form-connexion container">
+                <div class="form-floating mb-3">
                     <input
                         type="email"
                         class="form-control"
-                        id="mail"
-                        placeholder="exemple@laplateforme.io"
+                        id="floatingInput"
+                        placeholder="name@example.com"
                     />
-                    <p id="mail-p">
-                        Seuls les mails "@laplateforme.io" peuvent s'inscrire
-                    </p>
+                    <label for="floatingInput">Adresse mail</label>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-xs-12">
-                        <label for="mot-de-passe" class="form-label"
-                            >Mot de passe</label
-                        >
-                        <input
-                            type="password"
-                            id="mot-de-passe"
-                            class="form-control"
-                            aria-describedby="passwordHelpBlock"
-                            placeholder="**********"
-                        />
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-xs-12">
-                        <label for="mdp-verif" class="form-label" id="label-mdp"
-                            >Confirmer votre mot de passe.</label
-                        >
-                        <input
-                            type="password"
-                            id="mdp-verif"
-                            class="form-control"
-                            aria-describedby="passwordHelpBlock"
-                            placeholder="**********"
-                        />
-                    </div>
-                    <p id="message-erreur"></p>
-                </div>
-                <div class="col-12" id="bouton-confirmer">
-                    <button class="btn btn-primary" type="submit">
-                        Confirmer
-                    </button>
+                <div class="form-floating">
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="floatingPassword"
+                        placeholder="Password"
+                    />
+                    <label for="floatingPassword">Mot de passe</label>
                 </div>
             </section>
         </main>
         <footer></footer>
         <script
-            src="https://code.jquery.com/jquery-3.7.1.js"
-            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-            crossorigin="anonymous"
-        ></script>
-        <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <script src="js/inscription.js"></script>
     </body>
 </html>

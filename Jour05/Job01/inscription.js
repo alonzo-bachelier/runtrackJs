@@ -20,6 +20,13 @@ $(document).ready(function () {
         let mailRegex =
             /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         $("#mail-verif").text(mailRegex.test(mail) ? "" : "Email invalide !");
+        conditions.email = $(this).val().endsWith("@laplateforme.io");
+        toggleErrorMessage(
+            "#mail-p",
+            conditions.email,
+            'Seuls les mails "@laplateforme.io" peuvent s\'inscrire.'
+        );
+        updateSubmitButtonState();
     });
 
     $("#mot-de-passe").on("input", function () {

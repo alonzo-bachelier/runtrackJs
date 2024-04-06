@@ -1,7 +1,7 @@
 .form {
     margin-top: 20px;
 }
-label {
+.form-label {
     margin-top: 15px;
 }
 #nom-p {
@@ -22,4 +22,18 @@ label {
 #bouton-confirmer {
     margin-top: 15px;
     text-align: right;
+}
+
+/*page de connexion*/
+.form-connexion {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    width: 90vw;
+    margin-top: 150px;
+}
+@media screen and (max-width: 680px) {
+    .form-connexion {
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
 }
